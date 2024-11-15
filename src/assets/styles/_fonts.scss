@@ -1,0 +1,15 @@
+@mixin font-face($name, $weight-name, $weight) {
+  @font-face {
+    font-family: $name;
+    font-style: normal;
+    font-weight: $weight;
+    src:
+      local('#{$name}#{$weight-name}'),
+      url('@/assets/fonts/#{$name}/#{$name}#{$weight-name}.ttf') format('truetype');
+  }
+}
+
+@include font-face('Onest', 'Regular', $--font-weight-regular);
+@include font-face('Onest', 'Medium', $--font-weight-medium);
+@include font-face('Onest', 'SemiBold', $--font-weight-semi-bold);
+@include font-face('Onest', 'Bold', $--font-weight-bold);

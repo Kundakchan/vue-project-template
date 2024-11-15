@@ -1,0 +1,1 @@
+'*.{ts,js,ts,vue,scss}': ['npm run format']

@@ -1,0 +1,62 @@
+// fonts
+$--font-family-base: 'Onest';
+$--font-family-fallback: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+$--font-weight-regular: 400;
+$--font-weight-medium: 500;
+$--font-weight-semi-bold: 600;
+$--font-weight-bold: 700;
+
+// brand
+$--all-brand-default: #6b4eff;
+$--all-brand-hover: #4824ff;
+$--all-brand-pressed: #4b00fa;
+
+// control
+$--light-control-default: #403e3e14;
+$--dark-control-default: #ffffff0f;
+$--light-control-hover: #403e3e1f;
+$--dark-control-hover: #ffffff14;
+$--light-control-pressed: #403e3e33;
+$--dark-control-pressed: #ffffff1f;
+
+// surface
+$--light-surface-outline: #1c1c1d33;
+$--dark-surface-outline: #ffffff33;
+$--light-surface-elevation: #fff;
+$--dark-surface-elevation: #ffffff0a;
+
+// text
+$--all-text-secondary: #8e939b;
+$--all-text-inverse: #fff;
+$--light-text-disabled: #1c1c1d47;
+$--dark-text-disabled: #ffffff33;
+
+// special
+$--light-fill-disabled: #1c1c1d0a;
+$--dark-fill-disabled: #ffffff0a;
+
+// informative
+$--all-informative-default: #0067ff;
+$--all-informative-hover: #355bd8;
+$--all-informative-pressed: #254ac1;
+
+// negative
+$--all-negative-default: #ff465c;
+$--all-negative-hover: #ff1d38;
+$--all-negative-pressed: #f4001d;
+
+// radius
+$--border-radius-xl: 16px;
+$--border-radius-l: 12px;
+$--border-radius-m: 8px;
+
+// tag
+$--all-tag-informative: #0067ff1f;
+$--all-tag-positive: #52b6171f;
+$--all-tag-negative: #ff465c1f;
+$--all-tag-warning: #f3cb5247;
+$--all-tag-additional: #6b4eff1f;
+
+// other colors
+$--purple-2-1200: #463c85;
+$--white: #fff;

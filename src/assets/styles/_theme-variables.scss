@@ -1,0 +1,445 @@
+$theme: (
+  light: (
+    text: (
+      primary: '#1C1C1D',
+      secondary: $--all-text-secondary,
+      disabled: $--light-text-disabled,
+      link: '#0067FF',
+      error: '#FF465C',
+      inverse: '#FFFFFF'
+    ),
+    page: (
+      background: (
+        primary: '#F7F8FA'
+      ),
+      overlay: '#1c1c1d7a'
+    ),
+    datePicker: (
+      panel: (
+        background: '#F7F8FA',
+        day: (
+          selected: (
+            background: $--all-brand-default,
+            color: $--all-text-inverse
+          ),
+          hover: (
+            background: '#6b4eff1f'
+          ),
+          focus: (
+            borderColor: $--all-brand-hover
+          )
+        )
+      )
+    ),
+    image: (
+      picture: (
+        background: $--light-control-default
+      )
+    ),
+    checkbox: (
+      selected: (
+        default: (
+          background: $--all-brand-default,
+          borderColor: $--all-brand-default
+        ),
+        hover: (
+          background: $--all-brand-hover,
+          borderColor: $--all-brand-hover
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--light-control-default,
+          borderColor: $--light-surface-outline
+        ),
+        hover: (
+          background: $--light-control-hover,
+          borderColor: $--light-surface-outline
+        )
+      ),
+      focus: (
+        outlineColor: $--all-brand-default
+      ),
+      disabled: (
+        background: $--light-fill-disabled,
+        borderColor: $--light-fill-disabled
+      )
+    ),
+    radiobutton: (
+      selected: (
+        default: (
+          dotColor: $--white,
+          background: $--all-brand-default
+        ),
+        hover: (
+          dotColor: $--white,
+          background: $--all-brand-hover
+        ),
+        disabled: (
+          dotColor: $--light-text-disabled,
+          background: $--light-fill-disabled
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--light-control-default
+        ),
+        hover: (
+          borderColor: $--light-control-hover
+        ),
+        disabled: (
+          dotColor: $--light-text-disabled,
+          background: $--light-fill-disabled
+        )
+      )
+    ),
+    tumbler: (
+      selected: (
+        default: (
+          background: $--all-brand-default
+        ),
+        hover: (
+          background: $--all-brand-hover
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--light-control-default
+        ),
+        hover: (
+          background: $--light-control-hover
+        )
+      ),
+      disabled: (
+        circle: $--white,
+        background: $--light-control-default
+      )
+    ),
+    tag: (
+      neutral: (
+        background: $--light-control-default
+      ),
+      informative: (
+        background: $--all-tag-informative
+      ),
+      positive: (
+        background: $--all-tag-positive
+      ),
+      negative: (
+        background: $--all-tag-negative
+      ),
+      warning: (
+        background: $--all-tag-warning
+      ),
+      additional: (
+        background: $--all-tag-additional
+      )
+    ),
+    select: (
+      background: $--light-control-default,
+      hover: (
+        background: $--light-control-hover
+      ),
+      active: (
+        background: $--light-control-pressed
+      ),
+      focus: (
+        borderColor: $--all-informative-hover
+      ),
+      disabled: (
+        background: $--light-fill-disabled
+      ),
+      overlay: (
+        background: $--light-surface-elevation
+      ),
+      option: (
+        selected: $--light-control-pressed,
+        hover: $--light-control-hover
+      )
+    ),
+    input: (
+      border-color: $--light-surface-outline,
+      default: (
+        background: $--light-control-default
+      ),
+      focused: (
+        background: $--light-control-hover
+      )
+    ),
+    button: (
+      primary: (
+        disabled: (
+          background: $--light-fill-disabled
+        )
+      ),
+      secondary: (
+        enabled: (
+          background: $--light-control-default
+        ),
+        hover: (
+          background: $--light-control-hover
+        ),
+        active: (
+          background: $--light-control-pressed
+        ),
+        disabled: (
+          background: $--light-fill-disabled
+        )
+      ),
+      outline: (
+        enabled: (
+          borderColor: $--light-surface-outline
+        ),
+        hover: (
+          background: $--light-control-hover
+        ),
+        active: (
+          background: $--light-control-pressed
+        ),
+        disabled: (
+          border-color: $--light-fill-disabled
+        )
+      ),
+      link: (
+        enabled: (
+          border-color: $--light-surface-outline
+        )
+      )
+    )
+  ),
+  dark: (
+    text: (
+      primary: '#FFFFFF',
+      secondary: $--all-text-secondary,
+      disabled: $--dark-text-disabled,
+      link: '#0067FF',
+      error: '#FF465C',
+      inverse: '#FFFFFF'
+    ),
+    page: (
+      background: (
+        primary: '#1C1C1D'
+      ),
+      overlay: '#1C1C1D7A'
+    ),
+    datePicker: (
+      panel: (
+        background: '#403E3E',
+        day: (
+          selected: (
+            background: $--all-brand-default,
+            color: $--all-text-inverse
+          ),
+          hover: (
+            background: '#6b4eff1f'
+          ),
+          focus: (
+            borderColor: $--all-brand-hover
+          )
+        )
+      )
+    ),
+    image: (
+      picture: (
+        background: $--dark-control-default
+      )
+    ),
+    checkbox: (
+      selected: (
+        default: (
+          background: $--all-brand-default,
+          borderColor: $--all-brand-default
+        ),
+        hover: (
+          background: $--all-brand-hover,
+          borderColor: $--all-brand-hover
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--dark-control-default,
+          borderColor: $--dark-surface-outline
+        ),
+        hover: (
+          background: $--dark-control-hover,
+          borderColor: $--dark-surface-outline
+        )
+      ),
+      focus: (
+        outlineColor: $--all-brand-default
+      ),
+      disabled: (
+        background: $--dark-fill-disabled,
+        borderColor: $--dark-fill-disabled
+      )
+    ),
+    radiobutton: (
+      selected: (
+        default: (
+          dotColor: $--white,
+          background: $--all-brand-default
+        ),
+        hover: (
+          dotColor: $--white,
+          background: $--all-brand-hover
+        ),
+        disabled: (
+          dotColor: $--dark-text-disabled,
+          background: $--dark-fill-disabled
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--dark-control-default
+        ),
+        hover: (
+          borderColor: $--dark-control-hover
+        ),
+        disabled: (
+          dotColor: $--dark-text-disabled,
+          background: $--dark-fill-disabled
+        )
+      )
+    ),
+    tumbler: (
+      selected: (
+        default: (
+          background: $--all-brand-default
+        ),
+        hover: (
+          background: $--all-brand-hover
+        )
+      ),
+      noSelected: (
+        default: (
+          background: $--dark-control-default
+        ),
+        hover: (
+          background: $--dark-control-hover
+        )
+      ),
+      disabled: (
+        circle: $--dark-text-disabled,
+        background: $--dark-control-default
+      )
+    ),
+    tag: (
+      neutral: (
+        background: $--dark-control-default
+      ),
+      informative: (
+        background: $--all-tag-informative
+      ),
+      positive: (
+        background: $--all-tag-positive
+      ),
+      negative: (
+        background: $--all-tag-negative
+      ),
+      warning: (
+        background: $--all-tag-warning
+      ),
+      additional: (
+        background: $--all-tag-additional
+      )
+    ),
+    select: (
+      background: $--dark-control-default,
+      hover: (
+        background: $--dark-control-hover
+      ),
+      active: (
+        background: $--dark-control-pressed
+      ),
+      focus: (
+        borderColor: $--all-informative-hover
+      ),
+      disabled: (
+        background: $--dark-fill-disabled
+      ),
+      overlay: (
+        background: $--dark-surface-elevation
+      ),
+      option: (
+        selected: $--dark-control-pressed,
+        hover: $--dark-control-hover
+      )
+    ),
+    input: (
+      border-color: $--dark-surface-outline,
+      default: (
+        background: $--dark-control-default
+      ),
+      focused: (
+        background: $--dark-control-hover
+      )
+    ),
+    button: (
+      primary: (
+        disabled: (
+          background: $--dark-fill-disabled
+        )
+      ),
+      secondary: (
+        enabled: (
+          background: $--dark-control-default
+        ),
+        hover: (
+          background: $--dark-control-hover
+        ),
+        active: (
+          background: $--dark-control-pressed
+        ),
+        disabled: (
+          background: $--dark-fill-disabled
+        )
+      ),
+      outline: (
+        enabled: (
+          borderColor: $--dark-surface-outline
+        ),
+        hover: (
+          background: $--dark-control-hover
+        ),
+        active: (
+          background: $--dark-control-pressed
+        ),
+        disabled: (
+          border-color: $--dark-fill-disabled
+        )
+      ),
+      link: (
+        enabled: (
+          border-color: $--dark-surface-outline
+        )
+      )
+    )
+  )
+);
+
+// Рекурсивный миксин для генерации CSS-переменных
+@mixin generate-variables($map, $prefix: '') {
+  @each $key, $value in $map {
+    // Создаем имя переменной с учетом вложенности
+    $var-name: #{$prefix}#{$key};
+
+    // Если значение - это карта, рекурсивно вызываем миксин
+    @if type-of($value) == 'map' {
+      @include generate-variables($value, $var-name + '-');
+    } @else {
+      // Если значение - не карта, создаем переменную
+      --#{$var-name}: #{$value};
+    }
+  }
+}
+
+@mixin theme-init($mode) {
+  :root {
+    @if map-has-key($theme, $mode) {
+      $current-theme: map-get($theme, $mode);
+      @include generate-variables($current-theme);
+    } @else {
+      @warn "Theme mode '#{$mode}' does not exist in the theme map.";
+    }
+  }
+}
